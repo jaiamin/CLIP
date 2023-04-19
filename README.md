@@ -2,9 +2,9 @@
 
 CLIP provides a comprehensive set of features, including the ability to create new collage projects with desired dimensions and max values, add various layers and images, apply filters to layers, load/save projects, save completed composite images in various image formats.
 
-The program utilizes a controller pattern (MVC architecture) to ensure efficient and correct communication between the model and view components.
+CLIP utilizes a controller pattern (MVC architecture) to ensure efficient and correct communication between the model and view components.
 
-Overall, the Graphical Collager Program provides a user-friendly interface and robust set of features for creating collages, making it a valuable tool for anyone who needs to quickly and easily create composite images using either the GUI and/or TUI.
+Overall, CLIP provides a user-friendly interface and robust set of features for creating collages, making it a valuable tool for anyone who needs to quickly and easily create composite images using either the GUI and/or TUI.
 
 ## Features
 
