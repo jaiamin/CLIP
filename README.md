@@ -21,8 +21,6 @@ The following features are currently available for the user:
 - User-friendly and interactive graphical user interface (GUI) that allows you to create and edit collage projects with ease. 
 - Lightweight and flexible text user interface (TUI) that can be accessed via bash scripting.
 
-For more information regarding .collage extensions, refer to the Code Design section below.
-
 Currently, all features mentioned above are available for both user interfaces (GUI and/or TUI).
 
 ## Requirements
