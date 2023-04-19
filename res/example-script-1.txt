@@ -1,0 +1,31 @@
+new-project p5 900 900 255
+add-layer layer1
+add-image-to-layer layer1 res/example1.ppm 0 0
+add-layer layer2
+add-image-to-layer layer2 res/example1.ppm 300 0
+add-layer layer3
+add-image-to-layer layer3 res/example1.ppm 600 0
+add-layer layer4
+add-image-to-layer layer4 res/example1.ppm 0 300
+add-layer layer5
+add-image-to-layer layer5 res/example1.ppm 300 300
+add-layer layer6
+add-image-to-layer layer6 res/example1.ppm 600 300
+add-layer layer7
+add-image-to-layer layer7 res/example1.ppm 0 600
+add-layer layer8
+add-image-to-layer layer8 res/example1.ppm 300 600
+add-layer layer9
+add-image-to-layer layer9 res/example1.ppm 600 600
+set-filter layer1 normal
+set-filter layer2 red-component
+set-filter layer3 blue-component
+set-filter layer4 green-component
+set-filter layer5 brighten-value
+set-filter layer6 brighten-intensity
+set-filter layer7 brighten-luma
+set-filter layer8 darken-value
+set-filter layer9 darken-intensity
+save-image image1.ppm
+save-project
+quit

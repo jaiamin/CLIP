@@ -1,0 +1,24 @@
+new-project p1 1000 1000 225
+help
+add-layer layer1
+add-image-to-layer layer1 res/example-png.png 0 50
+add-layer layer2
+add-image-to-layer layer2 res/example-png.png 100 100
+add-layer layer3
+add-image-to-layer layer3 res/example-png.png 200 150
+add-layer layer4
+add-image-to-layer layer4 res/example-png.png 300 200
+add-layer layer5
+add-image-to-layer layer5 res/example-jpg.jpg 500 0
+add-image-to-layer layer5 res/example-jpeg.jpeg 800 0
+set-filter layer1 darken-luma
+set-filter layer2 difference
+set-filter layer3 multiply
+set-filter layer4 screen
+set-filter layer5 red-component
+save-image image-png.png
+save-image image-jpg.jpg
+save-image image-jpeg.jpeg
+save-image image-ppm.ppm
+save-project
+quit

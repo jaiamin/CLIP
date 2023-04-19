@@ -1,0 +1,5 @@
+load-project res/p5.collage
+set-filter layer1 red-component
+add-image-to-layer layer1 res/example1.ppm 150 150
+save-image image3-ppm.ppm
+quit
