@@ -1,6 +1,6 @@
-# Graphical Collager Program
+# CLIP: Composite Layering Image Processor
 
-This program provides a comprehensive set of features, including the ability to create new collage projects with desired dimensions and max values, add various layers and images, apply filters to layers, load/save projects, save completed composite images in various image formats.
+CLIP provides a comprehensive set of features, including the ability to create new collage projects with desired dimensions and max values, add various layers and images, apply filters to layers, load/save projects, save completed composite images in various image formats.
 
 The program utilizes a controller pattern (MVC architecture) to ensure efficient and correct communication between the model and view components.
 
