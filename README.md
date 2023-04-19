@@ -46,6 +46,7 @@ Image Name: pbmlib.ascii.ppm
 
 Terms of Usage: https://people.sc.fsu.edu/~jburkardt/txt/gnu_lgpl.txt
 
-## Code Sources
+## Licensing
+Copyright (c) Jai Amin. All rights reserved.
 
-All code written is owned by (and the work of) Jai Amin.
+Licensed under the MIT License.
