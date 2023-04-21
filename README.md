@@ -34,14 +34,6 @@ To run or compile this code, you will need:
 
 Please refer to the USEME file for instructions on how to use this program.
 
-## Image Sources
-
-Link to Image Source: https://people.sc.fsu.edu/~jburkardt/data/ppma/ppma.html
-
-Image Name: pbmlib.ascii.ppm
-
-Terms of Usage: https://people.sc.fsu.edu/~jburkardt/txt/gnu_lgpl.txt
-
 ## Licensing
 Copyright (c) Jai Amin. All rights reserved.
 
