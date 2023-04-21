@@ -34,8 +34,6 @@ To run or compile this code, you will need:
 
 Please refer to the USEME file for instructions on how to use this program.
 
-# Citations
-
 ## Image Sources
 
 Link to Image Source: https://people.sc.fsu.edu/~jburkardt/data/ppma/ppma.html
