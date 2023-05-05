@@ -15,8 +15,9 @@ jobs:
       uses: actions/setup-java@v2
       with:
         java-version: '11'
+        distribution: 'adopt'
     - name: Build with Maven
       run: mvn package --batch-mode --no-transfer-progress
     - name: Run JUnit tests
-      run: mvn test -Dtest=TestSuite -B
+      run: mvn test
       working-directory: ./test
