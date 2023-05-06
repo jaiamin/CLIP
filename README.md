@@ -1,5 +1,7 @@
 # CLIP: A Composite Layering Image Processor
 
+![CLIP GUI](res/clip-demo.png)
+
 CLIP provides a comprehensive set of features, including the ability to create new collage projects with desired dimensions and max values, add various layers and images, apply filters to layers, load/save projects, save completed composite images in various image formats.
 
 CLIP utilizes a controller pattern (MVC architecture) to ensure efficient and correct communication between the model and view components.
