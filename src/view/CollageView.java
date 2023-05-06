@@ -109,7 +109,7 @@ public class CollageView extends JFrame implements IView, ActionListener {
     int guiHeight = 1000;
     int guiWidth = 1500;
     setSize(guiWidth, guiHeight);
-    setResizable(true);
+    setResizable(false);
     setTitle("Collage Creator");
     setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
 
@@ -203,10 +203,10 @@ public class CollageView extends JFrame implements IView, ActionListener {
     // new project command inputs
     JPanel newProjectPanel = new JPanel(new GridLayout(1, 6));
     JLabel newProjectLabel = new JLabel("New Project");
-    this.newProjectNameTF = new JTextField("Name");
-    this.newProjectHeightTF = new JTextField("Height");
-    this.newProjectWidthTF = new JTextField("Width");
-    this.newProjectMaxValueTF = new JTextField("RGB Max Value");
+    this.newProjectNameTF = new PlaceholderTextField("Name");
+    this.newProjectHeightTF = new PlaceholderTextField("Height");
+    this.newProjectWidthTF = new PlaceholderTextField("Width");
+    this.newProjectMaxValueTF = new PlaceholderTextField("RGB Max Value");
     this.newProjectConfirm = new JButton("Confirm");
     newProjectConfirm.addActionListener(this);
     newProjectPanel.add(newProjectLabel);
@@ -219,7 +219,7 @@ public class CollageView extends JFrame implements IView, ActionListener {
     // add layer command inputs
     JPanel addLayerPanel = new JPanel(new GridLayout(1, 3));
     JLabel addLayerLabel = new JLabel("Add Layer");
-    this.addLayerNameTF = new JTextField("Name");
+    this.addLayerNameTF = new PlaceholderTextField("Name");
     this.addLayerConfirm = new JButton("Confirm");
     this.addLayerConfirm.addActionListener(this);
     addLayerPanel.add(addLayerLabel);
@@ -247,8 +247,8 @@ public class CollageView extends JFrame implements IView, ActionListener {
         }
       }
     });
-    this.addImageToLayerRowTF = new JTextField("Row");
-    this.addImageToLayerColTF = new JTextField("Column");
+    this.addImageToLayerRowTF = new PlaceholderTextField("Row");
+    this.addImageToLayerColTF = new PlaceholderTextField("Column");
     this.addImageToLayerConfirm = new JButton("Confirm");
     this.addImageToLayerConfirm.addActionListener(this);
     addImageToLayerPanel.add(addImageToLayerLabel);

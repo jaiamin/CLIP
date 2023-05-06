@@ -40,7 +40,7 @@ public class ScreenFilter extends AbstractBlendFilters {
     double l = (1 - ((1 - hsl.get(2)) * (1 - dhsl.get(2))));
     return RepresentationConverter.convertHSLtoRGB(h, s, l);
   }
-x
+
   /**
    * This method overrides the toString() method and returns the String representation
    * of a component type for a screen filter.
