@@ -25,6 +25,11 @@ The following features are currently available for the user:
 
 Currently, all features mentioned above are available for both user interfaces (GUI and/or TUI).
 
+## Build with Docker
+
+- Build docker image using the Dockerfile: ```docker build -t clip-gui .```
+- Run CLIP program in Docker container: ```docker run clip-gui```
+
 ## Requirements
 
 To run or compile this code, you will need:
