@@ -27,7 +27,17 @@ Currently, all features mentioned above are available for both user interfaces (
 
 ## Build
 
-- Run ```Program.jar``` in res
+1. Compile the entire project from the project root directory:
+
+```
+javac -Xlint:deprecation -d out src/**/*.java
+```
+
+2. After compiling, run the `Main` class:
+
+```
+java -cp out com.example.main.Main
+```
 
 ## Requirements
 
