@@ -36,7 +36,7 @@ javac -Xlint:deprecation -d out src/**/*.java
 2. After compiling, run the `Main` class:
 
 ```
-java -cp out com.example.main.Main
+java -cp out Main
 ```
 
 ## Requirements
